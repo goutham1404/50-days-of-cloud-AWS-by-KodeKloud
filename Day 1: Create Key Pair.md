@@ -3,15 +3,15 @@ For this task, create a key pair with the following requirements:
 1. Name of the key pair should be datacenter-kp.
 2. Key pair type must be rsa
 -------------------------------------------------------------------------------------------
-Method 1: Create Key Pair via AWS CLI:
 
+Method 1: From AWS CLI
+----------------------
 - aws ec2 create-key-pair --key-name datacenter-kp --key-type rsa  # creates key pair
 
 - aws ec2 describe-key-pair --key-names datacenter-kp
 
-
-Method 2: Create Key Pair via AWS Management Console:
-
+Method 2: From AWS Management Console
+-------------------------------------
 - Log in using the provided console URL.
 
 - Ensure the region at the top right is set to **N. Virginia (us-east-1)**.
