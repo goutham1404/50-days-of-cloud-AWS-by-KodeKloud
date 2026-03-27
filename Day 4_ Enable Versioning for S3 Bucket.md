@@ -44,11 +44,11 @@ Method 2: From via AWS Management Console
 
 5. Under `Bucket Versioning`, Choose `Edit`.
 
-   <img width="1285" height="338" alt="Screenshot 2026-03-27 220304" src="https://github.com/user-attachments/assets/5979485e-7b88-40b3-a22e-1065a6a930cc" />
+   <img width="1064" height="338" alt="Screenshot 2026-03-27 220304" src="https://github.com/user-attachments/assets/5979485e-7b88-40b3-a22e-1065a6a930cc" />
 
 6. Under `Bucket Versioning`, Choose `Enable`.
 
-   <img width="1326" height="622" alt="Screenshot 2026-03-27 220329" src="https://github.com/user-attachments/assets/2ad15ef0-340d-4774-87ec-65578ea8c0a7" />
+   <img width="1064" height="622" alt="Screenshot 2026-03-27 220329" src="https://github.com/user-attachments/assets/2ad15ef0-340d-4774-87ec-65578ea8c0a7" />
 
 7.  Choose `Save changes`.
 
