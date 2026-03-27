@@ -1,1 +1,0 @@
-# 50-days-of-cloud-AWS-by-KodeKloud
