@@ -28,55 +28,33 @@ Method 2: From via AWS Management Console
 
 **To allocate an Elastic IP address**
 
-1. Open the Amazon VPC console at https://console.aws.amazon.com/vpc/
+1. Sign in to the AWS Management Console and open the Amazon S3 console at [https://console.aws.amazon.com/s3](https://console.aws.amazon.com/s3)
 
-   <img width="1366" height="615" alt="image" src="https://github.com/user-attachments/assets/320e1824-c189-4582-9bfd-388d8cbde37d" />
-
-3. In the navigation pane, choose Elastic IPs.
-
-   <img width="1366" height="615" alt="image" src="https://github.com/user-attachments/assets/25e24134-9132-42d4-bad9-8014b50bc90f" />
-
-5. Choose Allocate Elastic IP address.
-
-6. (Optional) When you allocate an Elastic IP address (EIP), you choose the Network border group in which to allocate the EIP. A network border group is a collection of Availability Zones (AZs), Local Zones, or Wavelength Zones from which AWS advertises a public IP address. Local Zones and Wavelength Zones may have different network border groups than the AZs in a Region to ensure minimum latency or physical distance between the AWS network and the customers accessing the resources in these Zones.
-Important
-
-    `Note: You must allocate an EIP in the same network border group as the AWS resource that will be associated with the EIP. An EIP in one network border group can only be advertised in zones in that network border group and not in any other zones represented by other network border groups.`
-
-4. For Public IPv4 address pool choose one of the following:
-
-   - **Amazon's pool of IP addresses**—If you want an IPv4 address to be allocated from Amazon's pool of IP addresses.
-
-   - **My pool of public IPv4 addresses**—If you want to allocate an IPv4 address from an IP address pool that you have brought to your AWS account. This option is disabled if you do not have any IP address pools.
-
-   - **Customer owned pool of IPv4 addresses**—If you want to allocate an IPv4 address from a pool created from your on-premises network for use with an Outpost. This option is only available if you have an Outpost.
-
-     <img width="1366" height="615" alt="image" src="https://github.com/user-attachments/assets/eb2db9ce-442b-4017-9f16-ec7bb6a9c580" />
-
-5. (Optional) Add or remove a tag.
-
-[Add a tag] Choose **Add new tag** and do the following:
-
-   - For **Key**, enter the key name.
-
-   - For **Value**, enter the key value.
-
-     <img width="1315" height="171" alt="image" src="https://github.com/user-attachments/assets/8fe6daa6-522d-4b62-8922-61eabcc27b0d" />
-
-[Remove a tag] Choose **Remove** to the right of the tag’s Key and Value.
-
-6. Choose **Allocate.**
+2. In the left navigation pane, choose `General purpose buckets`.
    
-   <img width="203" height="66" alt="image" src="https://github.com/user-attachments/assets/4db2157a-f833-4d90-b750-21654d901f7b" />
+   <img width="255" height="201" alt="Screenshot 2026-03-27 220008" src="https://github.com/user-attachments/assets/3f00877e-ddc7-4f29-823e-4f13da89c153" />
 
-7. After allocation, click on pen icon to rename it with `nautilus-eip`
+3. In the buckets list, choose the name of the bucket that you want to enable versioning for.
 
-   <img width="1109" height="194" alt="image" src="https://github.com/user-attachments/assets/b8a36b86-da00-4658-9205-4de13ef03604" />
+   <img width="1018" height="183" alt="Screenshot 2026-03-27 220058" src="https://github.com/user-attachments/assets/a9d25dce-fa98-45be-bc98-4e5e8db78763" />
 
-8. After renaming
+4. Choose `Properties`.
 
-   <img width="1107" height="189" alt="image" src="https://github.com/user-attachments/assets/b600d33d-1f7e-42e6-8327-d7f93f2f7936" />
+   <img width="1064" height="251" alt="Screenshot 2026-03-27 220236" src="https://github.com/user-attachments/assets/b753fa24-7504-438f-b09a-a4533c370ea0" />
 
-Fore more, AWS Docs: [Start using Elastic IP addresses](https://docs.aws.amazon.com/vpc/latest/userguide/WorkWithEIPs.html#transfer-EIPs-intro
-)
+5. Under `Bucket Versioning`, Choose `Edit`.
+
+   <img width="1285" height="338" alt="Screenshot 2026-03-27 220304" src="https://github.com/user-attachments/assets/5979485e-7b88-40b3-a22e-1065a6a930cc" />
+
+6. Under `Bucket Versioning`, Choose `Enable`.
+
+   <img width="1326" height="622" alt="Screenshot 2026-03-27 220329" src="https://github.com/user-attachments/assets/2ad15ef0-340d-4774-87ec-65578ea8c0a7" />
+
+7.  Choose `Save changes`.
+
+8.  The `Show versions` option will appear in the `nautilus-s3-17892` bucket `object` page.
+
+   <img width="1322" height="600" alt="Screenshot 2026-03-27 220410" src="https://github.com/user-attachments/assets/7ee20836-757d-4e32-bcb7-722bcb1390cc" />
+
+
 
