@@ -10,7 +10,7 @@ Add the inbound rule of type `HTTP`, with port range of `80`. Enter the source C
 
 Add another inbound rule of type `SSH`, with port range of `22`. Enter the source CIDR range of `0.0.0.0/0`.
 
---------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 
 Method 1: From AWS CLI
 ----------------------
