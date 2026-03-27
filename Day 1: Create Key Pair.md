@@ -1,7 +1,10 @@
+# Day 1: Create Key PAir
+
 For this task, create a key pair with the following requirements:
 
 1. Name of the key pair should be datacenter-kp.
 2. Key pair type must be rsa
+
 -------------------------------------------------------------------------------------------
 
 Method 1: From AWS CLI
