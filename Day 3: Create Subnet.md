@@ -1,6 +1,7 @@
 # Day 3: Create Subnet
 
 For this task, create one subnet named `datacenter-subnet` under default VPC.
+
 ------------------------------------------------------------------------------------------------------------
 
 
