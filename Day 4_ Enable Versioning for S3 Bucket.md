@@ -48,13 +48,13 @@ Method 2: From via AWS Management Console
 
 6. Under `Bucket Versioning`, Choose `Enable`.
 
-   <img width="1064" height="622" alt="Screenshot 2026-03-27 220329" src="https://github.com/user-attachments/assets/2ad15ef0-340d-4774-87ec-65578ea8c0a7" />
+   <img width="1064" height="412" alt="Screenshot 2026-03-27 220329" src="https://github.com/user-attachments/assets/2ad15ef0-340d-4774-87ec-65578ea8c0a7" />
 
 7.  Choose `Save changes`.
 
 8.  The `Show versions` option will appear in the `nautilus-s3-17892` bucket `object` page.
 
-   <img width="1322" height="600" alt="Screenshot 2026-03-27 220410" src="https://github.com/user-attachments/assets/7ee20836-757d-4e32-bcb7-722bcb1390cc" />
+   <img width="1064" height="412" alt="Screenshot 2026-03-27 220410" src="https://github.com/user-attachments/assets/7ee20836-757d-4e32-bcb7-722bcb1390cc" />
 
 
 
