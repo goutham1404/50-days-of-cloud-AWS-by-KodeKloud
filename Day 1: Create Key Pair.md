@@ -1,4 +1,4 @@
-# Day 1: Create Key PAir
+# Day 1: Create Key Pair
 
 For this task, create a key pair with the following requirements:
 
@@ -9,9 +9,11 @@ For this task, create a key pair with the following requirements:
 
 Method 1: From AWS CLI
 ----------------------
-- aws ec2 create-key-pair --key-name datacenter-kp --key-type rsa  # creates key pair
+```sh
+aws ec2 create-key-pair --key-name datacenter-kp --key-type rsa  # creates key pair
 
-- aws ec2 describe-key-pair --key-names datacenter-kp
+aws ec2 describe-key-pair --key-names datacenter-kp
+```
 
 Method 2: From AWS Management Console
 -------------------------------------
