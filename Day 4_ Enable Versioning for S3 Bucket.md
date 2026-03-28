@@ -14,14 +14,6 @@ $ aws s3api put-bucket-versioning --bucket nautilus-s3-17892 --versioning-config
 $ aws s3api get-bucket-versioning --bucket nautilus-s3-17892    # verify if versioning is enabled (should show "Status": "Enabled")
 ```
 
-----------------------------------------------------------------------------------------------------------
-
-Method 1: From AWS CLI
-----------------------
-```sh
-
-```
-
 Method 2: From via AWS Management Console
 -----------------------------------------
 
