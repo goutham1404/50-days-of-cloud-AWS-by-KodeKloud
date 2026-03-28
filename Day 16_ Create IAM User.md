@@ -4,7 +4,7 @@ When establishing infrastructure on the AWS cloud, Identity and Access Managemen
 
 For this task, create an IAM user named `iamuser_james`.
 
-----------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------
 
 Method 1: From AWS CLI
 ----------------------
