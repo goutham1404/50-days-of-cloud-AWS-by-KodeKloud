@@ -1,5 +1,6 @@
 # Day 42: Building and Managing NoSQL Databases with AWS DynamoDB
 
+
 The Nautilus DevOps team is developing a simple 'To-Do' application using DynamoDB to store and manage tasks efficiently. The team needs to create a DynamoDB table to hold tasks, each identified by a unique task ID. Each task will have a description and a status, which indicates the progress of the task (e.g., 'completed' or 'in-progress').
 
 Your task is to:
