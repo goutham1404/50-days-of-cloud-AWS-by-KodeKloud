@@ -5,7 +5,9 @@
 
 <div align="center">
   <a href="https://engineer.kodekloud.com/certificate-verification/87baf421-7c84-4c6c-8290-35bcbee39724">
-    ![KodeKloud AWS certificate](https://github.com/user-attachments/assets/1e1e583b-f2f1-4e74-9981-e7d304019afe)
+    <img width="2250" height="1600" alt="AWS 100 Days Certificate" src="https://github.com/user-attachments/assets/d08238f0-bc96-42df-b554-0f7d267c7c2e" />
+    ![KodeKloud AWS certificate](https://github.com/user-attachments/assets/2f3f2966-c723-4960-be49-c9742b092076)
+
 
   </a>
 </div>
